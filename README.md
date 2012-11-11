@@ -31,6 +31,7 @@ How to install
 * setup apache
 
   ````
+  NameVirtualHost domain.tld
   <VirtualHost *:80>
       ServerName domain.tld
         DocumentRoot "{{dir}}/web"
